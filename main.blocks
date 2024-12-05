@@ -1,18 +1,1 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="b-WyC=[,G%wD],:wNlH8">mySprite</variable><variable type="KIND_SpriteKind" id="0{|*6N41A3?`g9#P[7@!">Player</variable><variable type="KIND_SpriteKind" id="~V(_*-qc}M1Pt=?v)TmY">Projectile</variable><variable type="KIND_SpriteKind" id="e1r)icQlHOdDRL6A%CU(">Food</variable><variable type="KIND_SpriteKind" id="$8A{D~PJPx?H7dIqDwoo">Enemy</variable></variables><block type="pxt-on-start" id="6Ovg$I`)z)qz#HjVSd)4" x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="_O%FR6)?Ny]JA12xwl%("><field name="VAR" id="b-WyC=[,G%wD],:wNlH8">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="X0z5nNw1$a[f`%FFq_{Z"><value name="img"><shadow type="screen_image_picker" id="eNyP,]RAQuAd,~`?Ihjr"><field name="img">img`
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . 3 3 . . . . . 3 3 3 . . . . 
-. . 3 . 3 3 . . 3 3 . 3 . . . . 
-. 3 . . . . 3 3 . . . 3 . . . . 
-. 3 . . . . . . . . . 3 . . . . 
-. 3 . . . . . . . . . 3 . . . . 
-. . 3 . . . . . . . . 3 . . . . 
-. . 3 . . . . . . . . 3 . . . . 
-. . . 3 3 . . . . . . 3 . . . . 
-. . . . 3 3 3 . . . 3 3 . . . . 
-. . . . . . 3 3 3 3 3 . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-. . . . . . . . . . . . . . . . 
-`</field><data>{"commentRefs":[],"fieldData":{"img":"eNyP,]RAQuAd,~`?Ihjr"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="!EygC,*!udeRHqF^0wJ9"><field name="MEMBER">Player</field></shadow></value></block></value></block></statement></block></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="b-WyC=[,G%wD],:wNlH8">mySprite</variable><variable type="KIND_SpriteKind" id="0{|*6N41A3?`g9#P[7@!">Player</variable><variable type="KIND_SpriteKind" id="~V(_*-qc}M1Pt=?v)TmY">Projectile</variable><variable type="KIND_SpriteKind" id="e1r)icQlHOdDRL6A%CU(">Food</variable><variable type="KIND_SpriteKind" id="$8A{D~PJPx?H7dIqDwoo">Enemy</variable></variables><block type="pxt-on-start" id="6Ovg$I`)z)qz#HjVSd)4" x="0" y="0"><statement name="HANDLER"><block type="set_current_tilemap" id="[#OvDnp2b0PPd3g[C9$6"><value name="tilemap"><shadow type="tiles_tilemap_editor" id="ia+Z@d0R{6@]F}ef?ofX"><field name="tilemap">tilemap`legel1`</field><data>{"commentRefs":[],"fieldData":{"tilemap":"level2"}}</data></shadow></value></block></statement></block></xml>
